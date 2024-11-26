@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O **Aluno Online** é uma API RESTful desenvolvida em Java usando o framework **Spring Boot**, que segue o padrão arquitetural MVC (Model-View-Controller), como projeto prático da disciplina **Tecnologias para Backend**, do prof. Kelson Almeida. O objetivo do projeto é criar um sistema de secretária de uma instituição de ensino, capaz de gerenciar informações relacionadas a alunos, professores, matrículas e disciplinas de forma organizada e eficiente, com persistência de dados em um banco de dados PostgreSQL.
+O **Aluno Online** é uma API RESTful desenvolvida em Java usando o framework **Spring Boot**, que segue o padrão arquitetural MVC (Model-View-Controller), como projeto prático da disciplina **Tecnologias para Backend**, do prof. Kelson Almeida. O objetivo do projeto é criar um sistema de secretaria de uma instituição de ensino, capaz de gerenciar informações relacionadas a alunos, professores, matrículas e disciplinas de forma organizada e eficiente, com persistência de dados em um banco de dados PostgreSQL.
 
 ## Estrutura do Projeto
 
@@ -70,6 +70,7 @@ O projeto está organizado nas seguintes pastas:
 
 ### Linguagem
 - **Java 17**: Linguagem principal para desenvolvimento do projeto.
+- **Maven**: Gerenciador de dependências
 
 ### Frameworks e Bibliotecas
 - **Spring Boot**:
@@ -106,6 +107,7 @@ A API utiliza o **PostgreSQL** como banco de dados para armazenar informações 
     ```
 
 ## Exemplos de testes no Insomnia:
+
 
 ![image](https://github.com/user-attachments/assets/2dd24357-b49a-4f44-83e6-4b2b1b95235b)
 
