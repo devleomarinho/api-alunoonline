@@ -1,9 +1,6 @@
 package br.com.alunoonline.api.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.io.Serializable;
@@ -11,7 +8,10 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Table (name = "alunos")
 @Entity
+
+
 public class Aluno implements Serializable {
 
     @Id
